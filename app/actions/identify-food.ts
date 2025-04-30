@@ -38,7 +38,7 @@ export async function identifyFood(imageBase64: string) {
       throw new Error("Image data is too small or invalid");
     }
 
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKey = "AIzaSyDC3QzbikUVWce_tvEkot5FLURkyGVeWd8";
     console.log("API Key present:", !!apiKey);
 
     if (!apiKey) {
